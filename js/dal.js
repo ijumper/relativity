@@ -1,10 +1,14 @@
-var dataAccessLayer = function (database) {
+var dal = {
 
-	 // second commit
-	var db = database;
+	var db = databaseName;
+	
+	initializeDatabase : function (databaseName) {
+	
+		db = databaseName;
+	
+	}
 	
 	executeSql : function (sql) {
-
 
 	}
 
