@@ -1,6 +1,6 @@
 var dataAccessLayer = function (database) {
 
-	
+	 // second commit
 	var db = database;
 	
 	executeSql : function (sql) {
